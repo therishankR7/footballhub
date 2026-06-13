@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Custom deep slate & indigo colors for high finish */
+  --color-slate-950: #0B0F19;
+  --color-slate-900: #0F172A;
+  --color-slate-850: #172033;
+  --color-slate-800: #1E293B;
+  --color-slate-750: #2C354D;
+  --color-slate-700: #334155;
+}
+
+/* Make scrollbar elegant */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+p, span, div, h1, h2, h3, h4, h5, h6, table, button, input, select {
+  font-family: var(--font-sans);
+}
+.font-display {
+  font-family: var(--font-display);
+}

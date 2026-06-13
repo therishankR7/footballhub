@@ -1,0 +1,6 @@
+{
+  "name": "FootballHub",
+  "description": "FootballHub is a clean and modern football dashboard providing live scores, fixture lists, standings, group results, detailed match statistics, team analytics, player stats, head-to-head metrics, and real-time commentary.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
